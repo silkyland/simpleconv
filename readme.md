@@ -10,25 +10,25 @@ ffmpeg or avconv
 ### Installation
 
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Change Permission
 
 ```bash
-chmod +x conv.command
+chmod +x conv-cli.command
 ```
 
 ### Usage
 
 ```bash
-./conv.command -i [input_file.m4a] -o [output_format (mp3 or wav)] -n [new_file_name]
+./conv-cli.command -i [input_file.m4a] -o [output_format (mp3 or wav)] -n [new_file_name]
 ```
 
 Example:
 
 ```bash
-./conv.command -i a.m4a -o mp3 -n "newname"
+./conv-cli.command -i a.m4a -o mp3 -n "newname"
 ```
 
 ### Note
